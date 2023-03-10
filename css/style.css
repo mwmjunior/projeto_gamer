@@ -13,7 +13,82 @@
 
 }
 
+body {
+
+    color:#FFFFFF;
+    background-color: #1B1426;
+
+}
+
+/* Classes genericas */
+
+.layout-grid{
+border: 1px solid salmon;
+width: 90%;
+height: 100%;
+margin: 0  auto;
+
+}
+
+/* justify content + align itens */
+.alinhamento-between-center {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
 /* mobile first */
+
+/*  HEADER */
+
+header{
+    height: 60px;
+    background-color: #1B1426;
+}
+
+header .header-top {
+
+    display: none;
+}
+
+
+/* HEADER BOTTOM */
+
+.header header-bottom {
+
+height: 100%;
+
+}
+
+header .header-bottom img.logo {
+
+    width: 86px;
+}
+
+header .header-bottom nav{
+position: fixed;
+top: 60px;
+left: 0;
+width: 80vw;
+height: calc(100vh - 60px);
+
+display: flex;
+flex-direction: column;
+background-color: grey;
+border: 1px solid white;
+
+}
+
+header .header-bottom .menu-usuarios {
+
+    display:none;
+}
+
+
+
 
 h1 {
 font-family: TitilliumWeb-Black;
