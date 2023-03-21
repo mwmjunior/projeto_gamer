@@ -13,8 +13,10 @@
 
     <header>
 
+        <!-- linha de cima com a borda amarela -->
         <div class="header-top">
-            <div class="layout-grid">
+
+            <div class="layout-grid alinhamento-between-center">
                 <div class="contatos">
                     <div class="phone">
                         <img src="./assets/icons/icone_telefone.svg" alt="Ícone de telefone">
@@ -58,7 +60,8 @@
                     <!-- visível apenas no mobile -->
 
                     <a class="phone">
-                        <img src="./assets/icons/icone_telefone.svg" alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
+                        <img src="./assets/icons/icone_telefone.svg"
+                            alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
                         <span>(11) 0900-1010</span>
                     </a>
                     <a class="email">
@@ -104,21 +107,136 @@
             <h1>Liga Gamers</h1>
             <a href="" class="botao-sobre">Sobre</a>
         </section>
-        
+
         <section class="jogos">
             <div class="layout-grid jogos-flex">
-                <img  src="./assets/images/fifa23.png" alt="Imagem jogo Fifa 2023">
-                <img  src="./assets/images/csgo.png" alt="Counter-Strike">
+                <img src="assets/images/fifa23.png" alt="Imagem do jogo Fifa 2023">
+                <img src="assets/images/csgo.png" alt="Imagem do jogo Counter Strike">
             </div>
+
         </section>
+
+        <section class="progamer">
+            
+            <div class="layout-grid">
+                <div class="titulo-progamer">
+                    <h1>Entre para o time progamer</h1>
+                    <hr>
+                </div>
+            </div>
+
+
+            
+        </section>
+
+
 
 
 
 
     </main>
 
-    
-    <footer>Todos os diretos reservados</footer>
+    <footer>
+        <div class="layout-grid footer-top">
+            
+            <div id="sobre">
+                <img src="./assets/images/logotipo-gamer.svg" alt="Logotipo, imagem com texto gamer e um controle de vídeo game ao centro">
+                
+                <p>Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa e altamente comprometida.</p>
+
+                <!-- exportar as imagens do figma! -->
+                <div id="midias-sociais-footer">
+                    <a href="">
+                        <img src="./assets/icons/facebook-footer.svg" alt="Ícone do Facebook">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/linkedin-footer.svg" alt="Ícone do Linkedin">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/intagram-footer.svg" alt="Ícone do Instagram">
+                    </a>
+                </div>
+            </div>
+
+            <div id="links-uteis">
+                <div class="titulos-footer">
+                    <h3>Links Úteis</h3>
+                    <hr>
+                </div>
+
+                <ul class="menu-footer">
+                    <li>
+                        <a href="">Início</a>
+                    </li>
+                    <li>
+                        <a href="">Jogadore</a>
+                    </li>
+                    <li>
+                        <a href="">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="">Login</a>
+                    </li>
+                    <li>
+                        <a href="">Equipes</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div id="contatos">
+                <div class="titulos-footer">
+                    <h3>Contatos</h3>
+                    <hr>
+                </div>
+
+                <p>
+                    <span class="contatos-titulo">Localização:</span>
+                    Rua Niterói, 180 - São Caetano do Sul- SP
+                </p>
+
+                <p>
+                    <span class="contatos-titulo">Junte-se a nós:</span>
+                    contato@gamer.com.br
+                </p>
+
+                <p>
+                    <span class="contatos-titulo">Telefone:</span>
+                    (11) 0900-1010
+                </p>
+            </div>
+
+
+
+            <div id="newsletter">
+                <div class="titulos-footer">
+                    <h3>Contatos</h3>
+                    <hr>
+                </div>
+
+                <form action="" class="frm-news">
+                    <input type="email" placeholder="Digite seu e-mail">
+                    <button>Enviar</button>
+                </form>
+            </div>
+            
+        </div> <!-- fim da footer-top -->
+        
+
+        <div class="layout-grid footer-bottom">
+        
+            <div class="voltar-topo">
+                <img id="alinhamento-botao-subir" src="./assets/icons/back-to-top.svg" alt="Ícone com a seta para cima, clique para voltar ao topo">
+            </div>
+
+            <p id="rights">&copy;Copyright2022-GamerJogosDigitais</p>
+        
+        </div>
+        
+    </footer>
+
+
+
 
     <script>
         function mostrarMenu() {
