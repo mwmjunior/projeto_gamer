@@ -239,6 +239,10 @@ main .progamer {
 main .titulo-progamer {
     width: 100%;
     border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 main .titulo-progamer h1 {
@@ -253,7 +257,10 @@ main .titulo-progamer h1 {
 
 }
 
+main .titulo-progamer hr {
+width: 240px;
 
+}
 
 
 
