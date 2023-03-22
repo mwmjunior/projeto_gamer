@@ -198,10 +198,13 @@ main {
 
 }
 
+
+
+
 .banner .botao-sobre {
     width: 171px;
     height: 40px;
-    display: flex;
+    display: flex;     
     justify-content: center;
     align-items: center;
     background-color: #F9AA01;
@@ -229,16 +232,20 @@ main .jogos .jogos-flex {
 
 
 /* Sessão Time Progamer */
-
+/* duvida flex */
 main .progamer {
     width: 100%;
     height: 1535px;
     background-color: #F9AA01;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
 main .titulo-progamer {
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -254,11 +261,116 @@ main .titulo-progamer h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
+    margin-top: 80px;
 
 }
 
 main .titulo-progamer hr {
-width: 240px;
+    top: 146px ;
+    width: 204px;
+    height: 0px;
+    position: absolute;
+    border: 1px solid #1b1426;
+}
+
+
+
+main .personagem-killjoy {
+    background-image: url(../assets/images/kiljoy.png);
+    background-size: cover;
+    width: 314px;
+    height: 511px;
+    position: absolute;
+    border: 2px solid red;
+    top: 228px;
+    left: 20px;
+    
+}
+
+
+
+/* duvida background */
+main .caixa_de_texto_joystick{ 
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 231px;
+    height: 300px;
+    border-radius: 8px;
+    border-image:linear-gradient(to left bottom, rgba(255, 255, 255, 0.97), rgba(27, 20, 38, 0));
+    border-width: 1px;
+    border-style: solid;
+    background: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
+    position: absolute;
+    top: 132px;
+    left: 105px;
+    backdrop-filter: blur(7.5px);
+
+}
+
+
+main  .caixa_de_texto_joystick h3{
+    color: #ffffff;
+    font-family: TitilliumWeb-Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    text-shadow: 0px 0px 6px #c6a5e6;
+    width: 248px;
+    height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+main .caixa_de_texto_joystick p {
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: justify;
+    color: #ffffff;
+    width: 176px;
+    height: 64px;
+
+
+}
+
+main .personagem-jinks {
+    background-image: url(../assets/images/jinks.png);
+    background-size: cover;
+    width: 322px;
+    height: 428px;
+    position: absolute;
+    border: 2px solid red;
+    top: 869px;
+    left: 33px;
+    
+}
+
+main .caixa_de_texto_professor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 231px;
+    height: 300px;
+    border-radius: 8px;
+    border-image:linear-gradient(to left bottom, rgba(255, 255, 255, 0.97), rgba(27, 20, 38, 0));
+    border-width: 1px;
+    border-style: solid;
+    background: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
+    position: absolute;
+    top: 111px;
+    left: -13px;
+    backdrop-filter: blur(7.5px);
+
+
 
 }
 
