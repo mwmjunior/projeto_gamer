@@ -281,7 +281,7 @@ main .personagem-killjoy {
     width: 314px;
     height: 511px;
     position: absolute;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     top: 228px;
     left: 20px;
     
@@ -346,7 +346,7 @@ main .personagem-jinks {
     width: 322px;
     height: 428px;
     position: absolute;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     top: 869px;
     left: 33px;
     
@@ -415,7 +415,7 @@ main .noticias {
     align-items: center;
     flex-direction: column;
     position: relative;
-
+    
 }
 
 
@@ -453,7 +453,8 @@ main .titulo-noticias hr {
 
 
 main .caixa-de-noticias {
-    width: 100%;
+    width: 335px;
+    height: 387px;
     max-height: fit-content;
     background: linear-gradient(
       
@@ -465,15 +466,24 @@ main .caixa-de-noticias {
     border: 1px #ffffff4f solid;
     border-radius: 8px;
 
-
 }
+
+.layout-news {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95%;  
+    }
 
 main .caixa-de-noticias img 
     {width: 100%;}
 
 main .caixa-de-noticias h2 
     {color: #FFF;
-     margin-top: 5px;  
+     margin-top: 5px; 
+     margin-left:25px;
+     margin-right:25px; 
      font-family: TitilliumWeb-Black;
      font-size: 24px;
      font-style: normal;
@@ -481,27 +491,23 @@ main .caixa-de-noticias h2
     }
 
 
-    .layout-news {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        height: 100%;
-        
-      }
-
-
 
 main .caixa-de-noticias P 
     {margin-top: 20px;
+     margin-left:25px;
+     margin-right:25px;
+     margin-bottom: 21px;
      font-size: 16px;
      text-align: justify;
      font-family: Quicksand;
      font-style: normal;
+     margin-bottom: 10px;
+
     }
 
 .margem-card-noticias
     {
-        margin: 20px 30px 30px;
+        margin: 50px 0px 30px;
     }
 
 
@@ -793,4 +799,40 @@ footer #rights {
         width: 555px;
     }
 
-}
+    /* ---------------------- Sessão Time Progamer (desktop) ------------------------------- */
+ 
+
+
+    
+    main .personagem-killjoy {
+        
+        width: 425px;
+        height: 692px;
+        border: 2px solid red; 
+        top: 228px;
+        left: 482px;
+        
+    }
+
+    main .personagem-jinks {
+      
+        width: 521px;
+        height: 692px;
+        border: 2px solid red; 
+        top: 229px;
+        left: 914px;
+        
+    }
+    
+
+    main .caixa_de_texto_professor {
+       
+        width: 360px;
+        height: 440px;
+        
+        top: 111px;
+        left: -13px;
+        
+    
+    }
+
